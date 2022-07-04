@@ -1,0 +1,24 @@
+GET http://localhost:3001/api/comments/
+
+###
+
+DELETE  http://localhost:3001/api/comments/
+
+###
+
+POST http://localhost:3001/api/comments/
+content-type: application/json
+
+{
+    "content": "NodeJS is awesome!"
+}
+
+###
+
+PUT http://localhost:3001/api/comments/62c2b95b3b6af3212dd7d3ee
+content-type: application/json
+
+{
+  "content": "React is awesome"
+}
+
